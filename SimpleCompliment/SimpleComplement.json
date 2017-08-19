@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "SkillInfoIntent"
+    },
+    {
+      "intent": "SkillMainIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Person",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "SkillSlotIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

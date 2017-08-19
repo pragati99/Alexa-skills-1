@@ -1,0 +1,6 @@
+InfoIntent what is the this app about
+InfoIntent tell me about the CSOutreach app
+InfoIntent tell me about the app
+StaffIntent who are the instructors
+StaffIntent how many instructors work here
+StackIntent which {City} offers java course
