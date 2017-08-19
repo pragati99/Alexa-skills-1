@@ -1,0 +1,29 @@
+STEPS:
+
+1. create an AWS Account
+
+2. Define Role- Identity Access management System IAM
+	Services-> IAM
+		Role->Create New Role
+		       ->Policy Type-> AWSLamdabasicExecution
+				-. review and create role
+				
+3. Click on Home and go to Lambda Function
+	-> create new lambda function
+						-> go to configuration triggers
+												-> Alexa Skills Kit
+														-> Name of Skill (eg ComplimentApp)
+														-> same description
+														->Runtime: python 2.7
+														-> paste the lambda function code
+														
+	Skill Interface
+	
+ developer.amazon.com
+goto Alexa	-> specify name and invocation name and invocation name	
+Interaction Model: specify Intent JSON Object
+							Custom Slot Types
+							Uttrances
+configuration -> paste the AWS lamda fn link
+
+														
