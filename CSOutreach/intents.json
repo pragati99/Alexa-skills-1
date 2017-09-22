@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "intent": "InfoIntent"
+    },
+    {
+      "intent": "StaffIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "StackIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "InstructorIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
